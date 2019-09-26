@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Biblioteca Brutss</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="btnLogar">Entrar</string>
+    <string name="lblEmail">Email:</string>
+    <string name="txtEmail" />
+    <string name="btnEntrar">Entrar</string>
+    <string name="idLivro" />
+    <string name="emailUsuario" />
+    <string name="txtSenha" />
+    <string name="txtAutor" />
+    <string name="txtTitulo" />
+    <string name="btnAlterar">Alterar</string>
+    <string name="btnDeletar">Deletar</string>
+</resources>

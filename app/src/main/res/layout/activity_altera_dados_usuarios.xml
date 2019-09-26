@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Alter"
+    tools:context=".AlteraDadosUsuarios">
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="76dp"
+        android:autofillHints=""
+        android:inputType=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="Senha"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/txtEditora"
+        android:layout_width="226dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignEnd="@+id/txtNome"
+        android:layout_alignRight="@+id/txtNome"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="26dp"
+        android:text="Nome"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintEnd_toStartOf="@+id/txtEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAlterar"
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/Email"
+        android:layout_alignEnd="@+id/Email"
+        android:layout_alignRight="@+id/Email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/btnAlterar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtNome" />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/btnAlterar"
+        android:layout_alignRight="@+id/btnAlterar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/btnDeletar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlterar" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="46dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="30dp"
+        android:text="Email"
+        app:layout_constraintEnd_toStartOf="@+id/txtNome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="89dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/txtSenha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEditora" />
+</androidx.constraintlayout.widget.ConstraintLayout>
